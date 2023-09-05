@@ -1,0 +1,3 @@
+{
+    "ignore": ["graphql.json", "rest.json"]
+}

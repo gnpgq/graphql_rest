@@ -1,0 +1,874 @@
+{
+  "items": [
+    {
+      "tags": [
+        "linux",
+        "debugging",
+        "strace"
+      ],
+      "owner": {
+        "account_id": 6018,
+        "reputation": 578639,
+        "user_id": 9951,
+        "user_type": "registered",
+        "accept_rate": 78,
+        "profile_image": "https://www.gravatar.com/avatar/5bde6be7c103aa64082aa254f66deb51?s=256&d=identicon&r=PG&f=y&so-version=2",
+        "display_name": "Bite code",
+        "link": "https://stackoverflow.com/users/9951/bite-code"
+      },
+      "is_answered": true,
+      "view_count": 302757,
+      "protected_date": 1579277215,
+      "accepted_answer_id": 174978,
+      "answer_count": 12,
+      "score": 297,
+      "last_activity_date": 1693035662,
+      "creation_date": 1223309261,
+      "last_edit_date": 1432409732,
+      "question_id": 174942,
+      "content_license": "CC BY-SA 3.0",
+      "link": "https://stackoverflow.com/questions/174942/how-should-strace-be-used",
+      "title": "How should strace be used?"
+    },
+    {
+      "tags": [
+        "c++",
+        "c",
+        "operators",
+        "code-formatting",
+        "standards-compliance"
+      ],
+      "owner": {
+        "account_id": 31692,
+        "reputation": 494215,
+        "user_id": 87234,
+        "user_type": "registered",
+        "accept_rate": 100,
+        "profile_image": "https://i.stack.imgur.com/FkjBe.png?s=256&g=1",
+        "display_name": "GManNickG",
+        "link": "https://stackoverflow.com/users/87234/gmannickg"
+      },
+      "is_answered": true,
+      "view_count": 984943,
+      "protected_date": 1297320482,
+      "accepted_answer_id": 1642035,
+      "answer_count": 28,
+      "community_owned_date": 1262233068,
+      "score": 10069,
+      "last_activity_date": 1692999285,
+      "creation_date": 1256799465,
+      "last_edit_date": 1680185464,
+      "question_id": 1642028,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/1642028/what-is-the-operator-in-c-c",
+      "title": "What is the &#39;--&gt;&#39; operator in C/C++?"
+    },
+    {
+      "tags": [
+        "javascript",
+        "node.js",
+        "ubuntu",
+        "zsh",
+        "nvm"
+      ],
+      "owner": {
+        "account_id": 61252,
+        "reputation": 404856,
+        "user_id": 182668,
+        "user_type": "registered",
+        "accept_rate": 68,
+        "profile_image": "https://www.gravatar.com/avatar/b19917aa04a6839aef577f1117c71d48?s=256&d=identicon&r=PG",
+        "display_name": "Pointy",
+        "link": "https://stackoverflow.com/users/182668/pointy"
+      },
+      "is_answered": false,
+      "view_count": 27,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1692989009,
+      "creation_date": 1692987049,
+      "last_edit_date": 1692989009,
+      "question_id": 76979644,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/76979644/installed-nvm-on-a-new-ubuntu-system-get-annoying-errors-from-its-startup-file",
+      "title": "Installed nvm on a new Ubuntu system, get annoying errors from its startup file"
+    },
+    {
+      "tags": [
+        "python",
+        "oop",
+        "metaclass",
+        "python-class",
+        "python-datamodel"
+      ],
+      "owner": {
+        "account_id": 6018,
+        "reputation": 578639,
+        "user_id": 9951,
+        "user_type": "registered",
+        "accept_rate": 78,
+        "profile_image": "https://www.gravatar.com/avatar/5bde6be7c103aa64082aa254f66deb51?s=256&d=identicon&r=PG&f=y&so-version=2",
+        "display_name": "Bite code",
+        "link": "https://stackoverflow.com/users/9951/bite-code"
+      },
+      "is_answered": true,
+      "view_count": 1130604,
+      "protected_date": 1350585760,
+      "accepted_answer_id": 100146,
+      "answer_count": 25,
+      "score": 7259,
+      "last_activity_date": 1692914568,
+      "creation_date": 1221804646,
+      "last_edit_date": 1675831759,
+      "question_id": 100003,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/100003/what-are-metaclasses-in-python",
+      "title": "What are metaclasses in Python?"
+    },
+    {
+      "tags": [
+        "javascript",
+        "ecmascript-6",
+        "arrow-functions"
+      ],
+      "owner": {
+        "account_id": 76141,
+        "reputation": 795319,
+        "user_id": 218196,
+        "user_type": "registered",
+        "accept_rate": 100,
+        "profile_image": "https://i.stack.imgur.com/4P5DY.jpg?s=256&g=1",
+        "display_name": "Felix Kling",
+        "link": "https://stackoverflow.com/users/218196/felix-kling"
+      },
+      "is_answered": true,
+      "view_count": 237559,
+      "protected_date": 1556688092,
+      "accepted_answer_id": 34361380,
+      "answer_count": 4,
+      "score": 799,
+      "last_activity_date": 1692901923,
+      "creation_date": 1450461480,
+      "last_edit_date": 1600623946,
+      "question_id": 34361379,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/34361379/are-arrow-functions-and-functions-equivalent-interchangeable",
+      "title": "Are &#39;Arrow Functions&#39; and &#39;Functions&#39; equivalent / interchangeable?"
+    },
+    {
+      "tags": [
+        "c#",
+        "mustache",
+        "text-rendering",
+        "mustache-sharp"
+      ],
+      "owner": {
+        "account_id": 7633,
+        "reputation": 732309,
+        "user_id": 13302,
+        "user_type": "registered",
+        "accept_rate": 99,
+        "profile_image": "https://www.gravatar.com/avatar/b4779212f57ff2e9549ea90a4499c2d7?s=256&d=identicon&r=PG",
+        "display_name": "marc_s",
+        "link": "https://stackoverflow.com/users/13302/marc-s"
+      },
+      "is_answered": false,
+      "view_count": 14,
+      "answer_count": 0,
+      "score": 1,
+      "last_activity_date": 1692855463,
+      "creation_date": 1692855463,
+      "question_id": 76966470,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/76966470/trouble-with-mustache-sharp-multiplying-empty-lines",
+      "title": "Trouble with mustache-sharp multiplying empty lines"
+    },
+    {
+      "tags": [
+        "python",
+        "argparse"
+      ],
+      "owner": {
+        "account_id": 79153,
+        "reputation": 510594,
+        "user_id": 224671,
+        "user_type": "registered",
+        "accept_rate": 67,
+        "profile_image": "https://www.gravatar.com/avatar/c90de868a7e95d75bdfd6a906dfedac7?s=256&d=identicon&r=PG",
+        "display_name": "kennytm",
+        "link": "https://stackoverflow.com/users/224671/kennytm"
+      },
+      "is_answered": true,
+      "view_count": 148197,
+      "accepted_answer_id": 3853776,
+      "answer_count": 15,
+      "score": 480,
+      "last_activity_date": 1692801877,
+      "creation_date": 1286181600,
+      "last_edit_date": 1614625960,
+      "question_id": 3853722,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/3853722/how-to-insert-newlines-on-argparse-help-text",
+      "title": "How to insert newlines on argparse help text?"
+    },
+    {
+      "tags": [
+        "java",
+        "intellij-idea",
+        "ant",
+        "breakpoints",
+        "bytecode"
+      ],
+      "owner": {
+        "account_id": 2094057,
+        "reputation": 501711,
+        "user_id": 1863229,
+        "user_type": "registered",
+        "accept_rate": 58,
+        "profile_image": "https://i.stack.imgur.com/4sh1l.png?s=256&g=1",
+        "display_name": "Tim Biegeleisen",
+        "link": "https://stackoverflow.com/users/1863229/tim-biegeleisen"
+      },
+      "is_answered": true,
+      "view_count": 4898,
+      "answer_count": 1,
+      "score": 9,
+      "last_activity_date": 1692712796,
+      "creation_date": 1524200312,
+      "question_id": 49934284,
+      "content_license": "CC BY-SA 3.0",
+      "link": "https://stackoverflow.com/questions/49934284/line-number-info-not-available-error-while-debugging-ant-project-in-intellij",
+      "title": "Line number info not available error while debugging Ant project in IntelliJ"
+    },
+    {
+      "tags": [
+        "python",
+        "python-3.x",
+        "string-formatting",
+        "python-3.6",
+        "f-string"
+      ],
+      "owner": {
+        "account_id": 403854,
+        "reputation": 462993,
+        "user_id": 771848,
+        "user_type": "registered",
+        "accept_rate": 100,
+        "profile_image": "https://i.stack.imgur.com/2DTBv.jpg?s=256&g=1",
+        "display_name": "alecxe",
+        "link": "https://stackoverflow.com/users/771848/alecxe"
+      },
+      "is_answered": true,
+      "view_count": 51844,
+      "accepted_answer_id": 41227080,
+      "answer_count": 15,
+      "score": 90,
+      "last_activity_date": 1692638555,
+      "creation_date": 1482118077,
+      "last_edit_date": 1482190759,
+      "question_id": 41215365,
+      "content_license": "CC BY-SA 3.0",
+      "link": "https://stackoverflow.com/questions/41215365/nested-f-strings",
+      "title": "Nested f-strings"
+    },
+    {
+      "tags": [
+        "ios",
+        "swift",
+        "uiactivityviewcontroller"
+      ],
+      "owner": {
+        "account_id": 4531600,
+        "reputation": 483850,
+        "user_id": 3681880,
+        "user_type": "registered",
+        "accept_rate": 90,
+        "profile_image": "https://www.gravatar.com/avatar/3b7ad8915f552cd4e23caf38eee10030?s=256&d=identicon&r=PG",
+        "display_name": "Suragch",
+        "link": "https://stackoverflow.com/users/3681880/suragch"
+      },
+      "is_answered": true,
+      "view_count": 215201,
+      "accepted_answer_id": 35931947,
+      "answer_count": 7,
+      "score": 179,
+      "last_activity_date": 1692516984,
+      "creation_date": 1457668786,
+      "last_edit_date": 1495541910,
+      "question_id": 35931946,
+      "content_license": "CC BY-SA 3.0",
+      "link": "https://stackoverflow.com/questions/35931946/basic-example-for-sharing-text-or-image-with-uiactivityviewcontroller-in-swift",
+      "title": "Basic example for sharing text or image with UIActivityViewController in Swift"
+    },
+    {
+      "tags": [
+        "floating-point"
+      ],
+      "owner": {
+        "account_id": 237126,
+        "reputation": 601306,
+        "user_id": 505088,
+        "user_type": "registered",
+        "accept_rate": 91,
+        "profile_image": "https://i.stack.imgur.com/LwXPj.png?s=256&g=1",
+        "display_name": "David Heffernan",
+        "link": "https://stackoverflow.com/users/505088/david-heffernan"
+      },
+      "is_answered": true,
+      "view_count": 2231,
+      "accepted_answer_id": 20768536,
+      "answer_count": 2,
+      "score": 37,
+      "last_activity_date": 1692389389,
+      "creation_date": 1387907127,
+      "question_id": 20764836,
+      "content_license": "CC BY-SA 3.0",
+      "link": "https://stackoverflow.com/questions/20764836/why-is-1-x1x-preferred-to-1-x2",
+      "title": "Why is (1-x)(1+x) preferred to (1-x^2)?"
+    },
+    {
+      "tags": [
+        "ios",
+        "flutter",
+        "apple-push-notifications",
+        "app-store"
+      ],
+      "owner": {
+        "account_id": 4531600,
+        "reputation": 483850,
+        "user_id": 3681880,
+        "user_type": "registered",
+        "accept_rate": 90,
+        "profile_image": "https://www.gravatar.com/avatar/3b7ad8915f552cd4e23caf38eee10030?s=256&d=identicon&r=PG",
+        "display_name": "Suragch",
+        "link": "https://stackoverflow.com/users/3681880/suragch"
+      },
+      "is_answered": true,
+      "view_count": 41172,
+      "accepted_answer_id": 55167613,
+      "answer_count": 4,
+      "score": 106,
+      "last_activity_date": 1692315353,
+      "creation_date": 1552580876,
+      "last_edit_date": 1552581230,
+      "question_id": 55167611,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/55167611/flutter-ios-app-submission-issue-warning-missing-push-notification-entitlement",
+      "title": "Flutter iOS app submission issue warning: Missing Push Notification Entitlement"
+    },
+    {
+      "tags": [
+        "sql-server",
+        "collation"
+      ],
+      "owner": {
+        "account_id": 27657,
+        "reputation": 438165,
+        "user_id": 73226,
+        "user_type": "registered",
+        "accept_rate": 100,
+        "profile_image": "https://i.stack.imgur.com/Tdqly.png?s=256&g=1",
+        "display_name": "Martin Smith",
+        "link": "https://stackoverflow.com/users/73226/martin-smith"
+      },
+      "is_answered": true,
+      "view_count": 17799,
+      "accepted_answer_id": 5182494,
+      "answer_count": 2,
+      "score": 6,
+      "last_activity_date": 1691953100,
+      "creation_date": 1299155751,
+      "question_id": 5180764,
+      "content_license": "CC BY-SA 2.5",
+      "link": "https://stackoverflow.com/questions/5180764/sql-server-code-pages-and-collations",
+      "title": "SQL Server Code Pages and Collations"
+    },
+    {
+      "tags": [
+        "optaplanner",
+        "timefold"
+      ],
+      "owner": {
+        "account_id": 102965,
+        "reputation": 413005,
+        "user_id": 276052,
+        "user_type": "registered",
+        "accept_rate": 80,
+        "profile_image": "https://i.stack.imgur.com/UcrhR.jpg?s=256&g=1",
+        "display_name": "aioobe",
+        "link": "https://stackoverflow.com/users/276052/aioobe"
+      },
+      "is_answered": true,
+      "view_count": 34,
+      "accepted_answer_id": 76892845,
+      "answer_count": 1,
+      "score": 0,
+      "last_activity_date": 1691936584,
+      "creation_date": 1691905871,
+      "last_edit_date": 1691936584,
+      "question_id": 76892094,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/76892094/is-built-in-entity-selection-clever-or-uniformly-random",
+      "title": "Is built-in entity selection clever or uniformly random?"
+    },
+    {
+      "tags": [
+        "haskell",
+        "combinatorics"
+      ],
+      "owner": {
+        "account_id": 26078,
+        "reputation": 442971,
+        "user_id": 67579,
+        "user_type": "registered",
+        "accept_rate": 81,
+        "profile_image": "https://i.stack.imgur.com/BJXub.png?s=256&g=1",
+        "display_name": "Willem Van Onsem",
+        "link": "https://stackoverflow.com/users/67579/willem-van-onsem"
+      },
+      "is_answered": false,
+      "view_count": 63,
+      "answer_count": 1,
+      "score": -2,
+      "last_activity_date": 1691835380,
+      "creation_date": 1691835380,
+      "question_id": 76888807,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/76888807/distributing-bath-money-over-n-people",
+      "title": "Distributing Bath money over n people"
+    },
+    {
+      "tags": [
+        "c++",
+        "c++20",
+        "std-ranges",
+        "range-v3"
+      ],
+      "owner": {
+        "account_id": 16029,
+        "reputation": 496277,
+        "user_id": 34509,
+        "user_type": "registered",
+        "accept_rate": 62,
+        "profile_image": "https://i.stack.imgur.com/7FnYg.jpg?s=256&g=1",
+        "display_name": "Johannes Schaub - litb",
+        "link": "https://stackoverflow.com/users/34509/johannes-schaub-litb"
+      },
+      "is_answered": true,
+      "view_count": 130,
+      "accepted_answer_id": 76885439,
+      "answer_count": 1,
+      "score": 4,
+      "last_activity_date": 1691772856,
+      "creation_date": 1691750893,
+      "last_edit_date": 1691761498,
+      "question_id": 76882853,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/76882853/why-cant-rangesbegin-be-called-on-a-const-any-view",
+      "title": "Why can&#39;t `ranges::begin` be called on a `const any_view`?"
+    },
+    {
+      "tags": [
+        "c#",
+        "resharper",
+        "visual-studio-2022"
+      ],
+      "owner": {
+        "account_id": 106749,
+        "reputation": 449820,
+        "user_id": 284240,
+        "user_type": "registered",
+        "accept_rate": 93,
+        "profile_image": "https://i.stack.imgur.com/BjjpM.png?s=256&g=1",
+        "display_name": "Tim Schmelter",
+        "link": "https://stackoverflow.com/users/284240/tim-schmelter"
+      },
+      "is_answered": true,
+      "view_count": 52,
+      "answer_count": 1,
+      "score": 0,
+      "last_activity_date": 1691673752,
+      "creation_date": 1691425992,
+      "last_edit_date": 1691426260,
+      "question_id": 76853554,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/76853554/nullable-reference-types-no-warning-in-visual-studio",
+      "title": "Nullable reference types: no warning in Visual Studio?"
+    },
+    {
+      "tags": [
+        "c#",
+        "angular",
+        "azure",
+        "asp.net-core-webapi",
+        "azure-static-web-app"
+      ],
+      "owner": {
+        "account_id": 7633,
+        "reputation": 732309,
+        "user_id": 13302,
+        "user_type": "registered",
+        "accept_rate": 99,
+        "profile_image": "https://www.gravatar.com/avatar/b4779212f57ff2e9549ea90a4499c2d7?s=256&d=identicon&r=PG",
+        "display_name": "marc_s",
+        "link": "https://stackoverflow.com/users/13302/marc-s"
+      },
+      "is_answered": true,
+      "view_count": 56,
+      "answer_count": 1,
+      "score": 0,
+      "last_activity_date": 1691613695,
+      "creation_date": 1691583198,
+      "question_id": 76867680,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/76867680/getting-a-proper-and-permanent-url-for-an-app-hosted-in-azure-static-web-app",
+      "title": "Getting a &quot;proper&quot; and &quot;permanent&quot; URL for an app hosted in Azure Static Web App"
+    },
+    {
+      "tags": [
+        "php",
+        "homebrew"
+      ],
+      "owner": {
+        "account_id": 1613587,
+        "reputation": 740795,
+        "user_id": 1491895,
+        "user_type": "registered",
+        "accept_rate": 69,
+        "profile_image": "https://www.gravatar.com/avatar/82f9e178a16364bf561d0ed4da09a35d?s=256&d=identicon&r=PG",
+        "display_name": "Barmar",
+        "link": "https://stackoverflow.com/users/1491895/barmar"
+      },
+      "is_answered": false,
+      "view_count": 67,
+      "answer_count": 1,
+      "score": 0,
+      "last_activity_date": 1691596874,
+      "creation_date": 1691594270,
+      "last_edit_date": 1691596156,
+      "question_id": 76869164,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/76869164/library-not-loaded-error-after-upgrading-then-downgrading-php-on-mac",
+      "title": "&quot;Library not loaded&quot; error after upgrading then downgrading php on Mac"
+    },
+    {
+      "tags": [
+        "c++",
+        "parallel-processing",
+        "openmp"
+      ],
+      "owner": {
+        "account_id": 1475,
+        "reputation": 529881,
+        "user_id": 1968,
+        "user_type": "registered",
+        "accept_rate": 83,
+        "profile_image": "https://www.gravatar.com/avatar/fdd630f72eef3790bfb4ef38d08c7f85?s=256&d=identicon&r=PG",
+        "display_name": "Konrad Rudolph",
+        "link": "https://stackoverflow.com/users/1968/konrad-rudolph"
+      },
+      "is_answered": true,
+      "view_count": 47274,
+      "accepted_answer_id": 4706823,
+      "answer_count": 4,
+      "score": 17,
+      "last_activity_date": 1691577085,
+      "creation_date": 1295194743,
+      "question_id": 4706494,
+      "content_license": "CC BY-SA 2.5",
+      "link": "https://stackoverflow.com/questions/4706494/openmp-get-total-number-of-running-threads",
+      "title": "OpenMP: Get total number of running threads"
+    },
+    {
+      "tags": [
+        "python",
+        "linux",
+        "pyinstaller",
+        "temp"
+      ],
+      "owner": {
+        "account_id": 8291,
+        "reputation": 853801,
+        "user_id": 14860,
+        "user_type": "registered",
+        "accept_rate": 100,
+        "profile_image": "https://i.stack.imgur.com/vXG1F.png?s=256&g=1",
+        "display_name": "paxdiablo",
+        "link": "https://stackoverflow.com/users/14860/paxdiablo"
+      },
+      "is_answered": true,
+      "view_count": 25,
+      "answer_count": 1,
+      "score": 1,
+      "last_activity_date": 1691465205,
+      "creation_date": 1691461716,
+      "question_id": 76856144,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/76856144/cleaning-up-old-directories-left-around-by-crashing-pyinstaller-one-file-mode-pr",
+      "title": "Cleaning up old directories left around by crashing PyInstaller one-file mode programs"
+    },
+    {
+      "tags": [
+        "php",
+        "operators"
+      ],
+      "owner": {
+        "account_id": 5559,
+        "reputation": 536942,
+        "user_id": 9021,
+        "user_type": "registered",
+        "accept_rate": 70,
+        "profile_image": "https://www.gravatar.com/avatar/f092dfd45793e9483281d4205b674823?s=256&d=identicon&r=PG",
+        "display_name": "nickf",
+        "link": "https://stackoverflow.com/users/9021/nickf"
+      },
+      "is_answered": true,
+      "view_count": 378481,
+      "protected_date": 1393061085,
+      "accepted_answer_id": 80649,
+      "answer_count": 13,
+      "score": 576,
+      "last_activity_date": 1691394362,
+      "creation_date": 1221634605,
+      "last_edit_date": 1691394362,
+      "question_id": 80646,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/80646/how-do-the-php-equality-double-equals-and-identity-triple-equals-comp",
+      "title": "How do the PHP equality (== double equals) and identity (=== triple equals) comparison operators differ?"
+    },
+    {
+      "tags": [
+        "rest",
+        "cookies",
+        "twitter",
+        "api-design"
+      ],
+      "owner": {
+        "account_id": 70258,
+        "reputation": 588076,
+        "user_id": 203907,
+        "user_type": "registered",
+        "accept_rate": 81,
+        "profile_image": "https://i.stack.imgur.com/07ej2.jpg?s=256&g=1",
+        "display_name": "Bozho",
+        "link": "https://stackoverflow.com/users/203907/bozho"
+      },
+      "is_answered": true,
+      "view_count": 30535,
+      "answer_count": 1,
+      "score": 17,
+      "last_activity_date": 1691252810,
+      "creation_date": 1515836367,
+      "last_edit_date": 1576064237,
+      "question_id": 48238626,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/48238626/why-would-a-restful-api-send-cookies-with-the-api-response",
+      "title": "Why would a RESTful API send cookies with the API response?"
+    },
+    {
+      "tags": [
+        "c#",
+        ".net",
+        "winforms"
+      ],
+      "owner": {
+        "account_id": 37175,
+        "reputation": 700330,
+        "user_id": 106224,
+        "user_type": "registered",
+        "accept_rate": 96,
+        "profile_image": "https://www.gravatar.com/avatar/a2d818d801ce38a33807f68fdd92043a?s=256&d=identicon&r=PG",
+        "display_name": "BoltClock",
+        "link": "https://stackoverflow.com/users/106224/boltclock"
+      },
+      "is_answered": true,
+      "view_count": 123643,
+      "accepted_answer_id": 3172762,
+      "answer_count": 4,
+      "score": 106,
+      "last_activity_date": 1691247041,
+      "creation_date": 1278187679,
+      "last_edit_date": 1337949918,
+      "question_id": 3172731,
+      "content_license": "CC BY-SA 3.0",
+      "link": "https://stackoverflow.com/questions/3172731/forms-not-responding-to-keydown-events",
+      "title": "Forms not responding to KeyDown events"
+    },
+    {
+      "tags": [
+        "sockets",
+        "networking",
+        "dns",
+        "localhost"
+      ],
+      "owner": {
+        "account_id": 93689,
+        "reputation": 412102,
+        "user_id": 256196,
+        "user_type": "moderator",
+        "accept_rate": 77,
+        "profile_image": "https://www.gravatar.com/avatar/d84b558fd67be10d5a718fb94231909d?s=256&d=identicon&r=PG",
+        "display_name": "Bohemian",
+        "link": "https://stackoverflow.com/users/256196/bohemian"
+      },
+      "is_answered": true,
+      "view_count": 172151,
+      "protected_date": 1550995517,
+      "accepted_answer_id": 7382629,
+      "answer_count": 5,
+      "score": 220,
+      "last_activity_date": 1691167897,
+      "creation_date": 1315791941,
+      "last_edit_date": 1376915192,
+      "question_id": 7382602,
+      "content_license": "CC BY-SA 3.0",
+      "link": "https://stackoverflow.com/questions/7382602/what-is-the-difference-between-127-0-0-1-and-localhost",
+      "title": "What is the difference between 127.0.0.1 and localhost"
+    },
+    {
+      "tags": [
+        "asp.net-core",
+        "razor-pages",
+        "asp.net-core-6.0",
+        "httpsession"
+      ],
+      "owner": {
+        "account_id": 7633,
+        "reputation": 732309,
+        "user_id": 13302,
+        "user_type": "registered",
+        "accept_rate": 99,
+        "profile_image": "https://www.gravatar.com/avatar/b4779212f57ff2e9549ea90a4499c2d7?s=256&d=identicon&r=PG",
+        "display_name": "marc_s",
+        "link": "https://stackoverflow.com/users/13302/marc-s"
+      },
+      "is_answered": true,
+      "view_count": 46,
+      "accepted_answer_id": 76814283,
+      "answer_count": 1,
+      "score": 1,
+      "last_activity_date": 1690958336,
+      "creation_date": 1690904539,
+      "last_edit_date": 1690919817,
+      "question_id": 76813261,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/76813261/asp-net-core-6-0-razor-pages-add-info-about-currently-logged-in-user-to-the",
+      "title": "ASP.NET Core 6.0 / Razor pages / add info about currently logged in user to the Session"
+    },
+    {
+      "tags": [
+        "c",
+        "variable-length-array"
+      ],
+      "owner": {
+        "account_id": 8423,
+        "reputation": 730463,
+        "user_id": 15168,
+        "user_type": "registered",
+        "accept_rate": 100,
+        "profile_image": "https://i.stack.imgur.com/WtEI9.png?s=256&g=1",
+        "display_name": "Jonathan Leffler",
+        "link": "https://stackoverflow.com/users/15168/jonathan-leffler"
+      },
+      "is_answered": true,
+      "view_count": 521,
+      "accepted_answer_id": 70792453,
+      "answer_count": 1,
+      "score": 0,
+      "last_activity_date": 1690821402,
+      "creation_date": 1642707522,
+      "last_edit_date": 1642743815,
+      "question_id": 70792452,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/70792452/why-is-this-vla-variable-length-array-definition-unreliable",
+      "title": "Why is this VLA (variable-length array) definition unreliable?"
+    },
+    {
+      "tags": [
+        "delphi"
+      ],
+      "owner": {
+        "account_id": 237126,
+        "reputation": 601306,
+        "user_id": 505088,
+        "user_type": "registered",
+        "accept_rate": 91,
+        "profile_image": "https://i.stack.imgur.com/LwXPj.png?s=256&g=1",
+        "display_name": "David Heffernan",
+        "link": "https://stackoverflow.com/users/505088/david-heffernan"
+      },
+      "is_answered": true,
+      "view_count": 4417,
+      "accepted_answer_id": 8820298,
+      "answer_count": 3,
+      "score": 19,
+      "last_activity_date": 1690783062,
+      "creation_date": 1326289448,
+      "last_edit_date": 1326357032,
+      "question_id": 8820294,
+      "content_license": "CC BY-SA 3.0",
+      "link": "https://stackoverflow.com/questions/8820294/how-can-i-make-allocatehwnd-threadsafe",
+      "title": "How can I make AllocateHwnd threadsafe?"
+    },
+    {
+      "tags": [
+        "jira",
+        "jql"
+      ],
+      "owner": {
+        "account_id": 8291,
+        "reputation": 853801,
+        "user_id": 14860,
+        "user_type": "registered",
+        "accept_rate": 100,
+        "profile_image": "https://i.stack.imgur.com/vXG1F.png?s=256&g=1",
+        "display_name": "paxdiablo",
+        "link": "https://stackoverflow.com/users/14860/paxdiablo"
+      },
+      "is_answered": false,
+      "view_count": 17,
+      "answer_count": 0,
+      "score": -1,
+      "last_activity_date": 1690766642,
+      "creation_date": 1690766061,
+      "last_edit_date": 1690766642,
+      "question_id": 76800184,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/76800184/can-i-query-jira-to-find-specific-sub-tasks-based-on-parent-properties-without",
+      "title": "Can I query Jira to find specific sub-tasks based on parent properties (without third-party tools)?"
+    },
+    {
+      "tags": [
+        "javascript",
+        "ajax",
+        "asynchronous"
+      ],
+      "owner": {
+        "account_id": 76141,
+        "reputation": 795319,
+        "user_id": 218196,
+        "user_type": "registered",
+        "accept_rate": 100,
+        "profile_image": "https://i.stack.imgur.com/4P5DY.jpg?s=256&g=1",
+        "display_name": "Felix Kling",
+        "link": "https://stackoverflow.com/users/218196/felix-kling"
+      },
+      "is_answered": true,
+      "view_count": 2079212,
+      "protected_date": 1554698603,
+      "accepted_answer_id": 14220323,
+      "answer_count": 42,
+      "score": 6619,
+      "last_activity_date": 1690585441,
+      "creation_date": 1357664774,
+      "last_edit_date": 1657142999,
+      "question_id": 14220321,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/14220321/how-do-i-return-the-response-from-an-asynchronous-call",
+      "title": "How do I return the response from an asynchronous call?"
+    }
+  ],
+  "has_more": true,
+  "quota_max": 300,
+  "quota_remaining": 235
+}
