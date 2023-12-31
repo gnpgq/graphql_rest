@@ -1,1 +1,0 @@
-jq '[.items[].user_id] | join(";")'  users.json > userIds.csv

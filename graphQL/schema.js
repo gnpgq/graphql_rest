@@ -1,12 +1,6 @@
-import { buildSchema } from 'graphql'
+import { GraphQLSchema } from 'graphql'
+import { RootQuery } from './rootquery.js'
 
-export const schema = buildSchema(`
-  type User {
-    id: String!
-    name: String
-    link: String
-  }
-  type Query {
-    users: [User]!
-  }
-`)
+export const schema = new GraphQLSchema({
+  query: RootQuery
+})
