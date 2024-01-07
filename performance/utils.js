@@ -1,12 +1,9 @@
-import fs from "fs";
+import * as v8 from 'node:v8';
 
-let stream
+const maxHeap = v8.getHeapStatistics().heap_size_limit;
 
-const getStream = () => {
-  if (!stream) {
-    stream = fs.createWriteStream("./performance/results/cpu.csv", { flags: "a" });
-  }
-  return stream;
+function getPercentOfMaxHeapInUse() {
+  return v8.getHeapStatistics().used_heap_size / maxHeap;
 }
 
 export const startMeasuring = () => {
@@ -15,9 +12,10 @@ export const startMeasuring = () => {
 };
 
 export const endMeasuring = (startUsage) => {
-  const overallUsage = process.cpuUsage(startUsage);
-  const stream = getStream()
-  stream.write(overallUsage.user + "\n")
-  console.log("cpu usage overall: ", overallUsage.user);
-  return overallUsage.user
+  const overallCpuUsage = process.cpuUsage(startUsage);
+  const userCpuUsage = overallCpuUsage.user
+  const heapInUse = getPercentOfMaxHeapInUse()
+
+  console.log("cpu usage overall: ", userCpuUsage);
+  return {cpu: userCpuUsage, memory: heapInUse}
 };

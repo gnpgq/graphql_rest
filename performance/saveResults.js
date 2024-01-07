@@ -4,7 +4,7 @@ function convertToCSV(results) {
   const text = results
     .map(
       (result) =>
-        `${result.relativeIterationStartTime};${result.elapsedTime};${result.cpuMeasurement};${result.size}`
+        `${result.relativeIterationStartTime};${result.elapsedTime};${result.cpuMeasurement};${result.size};${result.memoryMeasurement}`
     )
     .join("\n");
   return text;

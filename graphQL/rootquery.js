@@ -11,7 +11,7 @@ export const RootQuery = new GraphQLObjectType({
       args: {
         id: {type: new GraphQLNonNull(GraphQLID)}
       },
-      async resolve({id}) {
+      async resolve(source, {id}) {
         return repository.getQuestionById(id)
       }
     },
@@ -20,7 +20,7 @@ export const RootQuery = new GraphQLObjectType({
       args: {
         id: {type: new GraphQLNonNull(GraphQLID)}
       },
-      async resolve({id}) {
+      async resolve(source, {id}) {
         return repository.getUserById(id)
       }
     },

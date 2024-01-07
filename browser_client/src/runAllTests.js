@@ -5,9 +5,9 @@ import { runTestCase4 } from "./testCases/testCase4.js";
 import { runTestCase5 } from "./testCases/testCase5.js";
 
 export async function runAllTests() {
-  await runTestCase1();
-  // await runTestCase2()
-  // await runTestCase3()
-  //await runTestCase4()
-  //await runTestCase5();
+ //await runTestCase1();
+// await runTestCase2()
+  await runTestCase3()
+   //await runTestCase4()
+ // await runTestCase5();
 }

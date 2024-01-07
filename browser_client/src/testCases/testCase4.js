@@ -1,29 +1,30 @@
-import { runTest } from "../runTest.js"
+import { runTest } from "../runTest.js";
+import { getMeasurements } from "../utils.js";
 
 // get authors of answers for 10 given questions
 
-const restQuestionEndpoint  = '/rest/questions'
-const restUserEndpoint = '/rest/users'
+const restQuestionEndpoint = "/rest/questions";
+const restUserEndpoint = "/rest/users";
 
-const graphqlEndpoint = '/graphql'
+const graphqlEndpoint = "/graphql";
 
 const ids = [
-  "77288122-5098-4d6a-942f-19b62061e983",
-  "fa38ec73-b834-4b25-9462-97c4b2487006",
-  "ab9c1231-24e3-4036-8394-e46400c8a562",
-  "b78d08cf-a988-4621-846b-e3cb261e3d20",
-  "b1c491df-8a10-4f3b-beb5-598aed45cf34",
-  "b2d064bf-21ac-4bb5-baa1-44aff05804d5",
-  "5c1b592d-b764-4d4a-b7f2-249f3dc86a7c",
-  "f1f96d45-c090-4031-917e-25b156c08075",
-  "d25c5564-7274-4a6e-872b-3216f4ef7948",
-  "4580066c-61b6-4c56-9eed-bae2c5ca042d"
-]
+  "3317050a-04c0-40f8-b952-af80821f24ba",
+  "9184537f-5968-4ac0-a46f-e80f68088bb6",
+  "5c353b4c-70e3-414b-867b-e62d3e6109a1",
+  "2a2886c9-dcbe-4faf-a962-69ef6179010c",
+  "09496e23-c3f2-4250-ab26-3e62c8415023",
+  "5ea1f1fe-9fea-428e-a055-b2dfbe62c402",
+  "11953928-15b0-4abf-a1b7-f513565495cb",
+  "9cda1481-3239-4b70-b466-954eaadbe40c",
+  "d597fc1a-b56e-41d1-9189-cbfb6b476efa",
+  "1434e829-640e-416d-be0c-ca883317141e",
+];
 
 const graphqlOptions = (id) => ({
-  method: 'POST',
+  method: "POST",
   headers: {
-    'Content-Type': 'application/json',
+    "Content-Type": "application/json",
   },
   body: JSON.stringify({
     query: `
@@ -35,29 +36,44 @@ const graphqlOptions = (id) => ({
             user {
               id
               display_name
+              is_employee
+              accept_rate
+              location
             }
           }
         }
       }
     `,
-    variables: {id}
+    variables: { id },
   }),
-})
+});
 
 async function fetchRest() {
-  const users = await Promise.all(ids.map(async id => {
-    const response = await fetch(`${restQuestionEndpoint}/${id}/answers`);
-    const answers = await response.json()
-    return Promise.all(answers.map(a => fetch(`${restUserEndpoint}/${a.user_id}`)))
-  }))
+  let promises = [];
+
+  for (let index = 0; index < ids.length; index++) {
+    const id = ids[index];
+    const test = fetch(`${restQuestionEndpoint}/${id}/answers`)
+      .then((response) => response.json())
+      .then((body) =>
+        Promise.all(body.map((a) => fetch(`${restUserEndpoint}/${a.user_id}`)))
+      );
+    promises.push(test)
+  }
+
+  const responses = await Promise.all(promises)
+
+  return getMeasurements(responses.flat(2));
 }
 
 async function fetchGraphQL() {
-  const result = await Promise.all(ids.map(id => fetch(graphqlEndpoint, graphqlOptions(id))))
-  return result
+  const result = await Promise.all(
+    ids.map((id) => fetch(graphqlEndpoint, graphqlOptions(id)))
+  );
+  return getMeasurements(result);
 }
 
 export async function runTestCase4() {
-  await runTest('testCase4Rest', fetchRest)
-  await runTest('testCase4GraphQL', fetchGraphQL)
+  await runTest("testCase4Rest", fetchRest);
+  await runTest("testCase4GraphQL", fetchGraphQL);
 }

@@ -1,4 +1,5 @@
 import { runTest } from "../runTest.js"
+import { getMeasurements } from "../utils.js"
 
 // get just title of the question (and id)
 
@@ -25,12 +26,12 @@ const graphqlOptions = {
 
 async function fetchRest() {
   const response = await fetch(restEndpoint);
-  const data = await response.json()
+  return getMeasurements([response])
 }
 
 async function fetchGraphQL() {
   const response = await fetch(graphqlEndpoint, graphqlOptions)
-  const data = await response.json()
+  return getMeasurements([response])
 }
 
 export async function runTestCase2() {

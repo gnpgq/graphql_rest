@@ -38,13 +38,13 @@ const graphqlOptions = {
 async function fetchGraphQL() {
   const response = await fetch(graphqlEndpoint, graphqlOptions)
   // const data = await response.json()
-  return getMeasurements(response)
+  return getMeasurements([response])
 }
 
 async function fetchRest() {
   const response = await fetch(restEndpoint);
  // const data = await response.json()
-  return getMeasurements(response)
+  return getMeasurements([response])
 }
 
 

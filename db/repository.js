@@ -16,7 +16,7 @@ const getQuestionsByUserId = (userId) => {
 }
 
 const getAllQuestions = () => {
-  const questionsQuery = 'select * from question limit 1000'
+  const questionsQuery = 'select * from question order by creation_date limit 1000'
   return getDb().manyOrNone(questionsQuery);
 }
 
