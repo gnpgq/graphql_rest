@@ -30,9 +30,13 @@ const graphqlOptions = (id) => ({
     query: `
       query GetQuestion($id: ID!){
         getQuestionById(id: $id) {
-          id
           answers {
             id
+            body
+            user_id
+            question_id
+            score
+            accepted
             user {
               id
               display_name
