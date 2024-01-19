@@ -33,6 +33,11 @@ const graphqlOptions = (id) => ({
           id
           answers {
             id
+            body
+            user_id
+            question_id
+            score
+            accepted
             user {
               id
               display_name

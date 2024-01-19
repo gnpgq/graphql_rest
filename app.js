@@ -47,20 +47,14 @@ const beforeMiddleware = function (req, res, next) {
   start = startMeasuring();
   const previousSend = res.send
   res.send = (data) => {
-    const value = endMeasuring(start)
+    const {cpu, memory} = endMeasuring(start)
     res.send = previousSend
-    res.set('cpuMeasurement', JSON.stringify(value))
+    res.set('cpu', JSON.stringify(cpu))
+    res.set('memory', JSON.stringify(memory))
     return res.send(data)
   }
   next();
 };
-
-// app.use(function (req, res, next) {
-//   res.on("finish", function () {
-//     endMeasuring(start);
-//   });
-//   next();
-// });
 
 app.use("/", beforeMiddleware, router);
 
